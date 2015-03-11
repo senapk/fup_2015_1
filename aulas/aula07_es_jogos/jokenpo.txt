@@ -1,0 +1,16 @@
+pedra
+papel 
+
+jog2
+
+####
+papel
+papel
+
+empate
+
+###
+tesoura
+papel
+
+jog1
