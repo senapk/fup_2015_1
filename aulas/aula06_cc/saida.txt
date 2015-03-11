@@ -1,0 +1,7 @@
+Digite nota 1
+Digite nota 2
+Digite nota 3
+
+Final 5.26666666667
+Digite a final
+Aprovado
