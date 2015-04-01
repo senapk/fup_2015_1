@@ -1,0 +1,4 @@
+cria uma roleta
+cria um rack
+
+criar uma lista com os numeros
