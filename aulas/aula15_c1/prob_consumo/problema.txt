@@ -1,0 +1,13 @@
+Dado os dados de um automóvel.
+1 - A velocidade média em km/h
+2 - O tempo de deslocamento em minutos
+3 - O consumo em litros
+
+Saida : desempenho em km/l
+
+Ex:
+>>
+100
+60
+1
+
