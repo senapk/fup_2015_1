@@ -1,6 +1,6 @@
-#entrada de dados. Transformar de string 
+#entrada de dados. Transformar de string
 #pra vetor de inteiro
-#5 1 1 2 3 12   <<<<<< 
+#5 1 1 2 3 12   <<<<<<
 
 linha = raw_input().split(" ")
 vetor = [] #vetor vazio
@@ -21,23 +21,23 @@ for elem in vetor:
         soma += elem
 
 print ases, soma
-    
+
 while soma > 21 and ases > 0:
-	ases -= 1 #tiro um as
-	soma -= 10 #retirar um as baixa a minha conta em 10
+    ases -= 1 #tiro um as
+    soma -= 10 #retirar um as baixa a minha conta em 10
 
 print ases, soma
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
 
 

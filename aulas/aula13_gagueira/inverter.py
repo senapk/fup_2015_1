@@ -14,4 +14,3 @@ del lista[0]
 #modo 3
 for i in range(len(lista) - 1, -1, -1):
     print lista[i],
-

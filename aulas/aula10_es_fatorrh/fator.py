@@ -6,9 +6,9 @@ def efilho(mae, pai, filho):
 	e = filho[0]
 	f = filho[1]
 	if (f == a or f == b ) and (e == c or e == d) or \
-	   (e == a or e == b ) and (f == c or f == d): 
+	   (e == a or e == b ) and (f == c or f == d):
 		return True
-	else: 
+	else:
 		return False
 
 
@@ -25,7 +25,7 @@ if len(mae) == 1:
 if len(filho) == 1:
    filho1 = "O" + filho
    filho2 = filho + filho
-   
+
 #if efilho(mae, pai, filho1) == False and \
 #   efilho(mae, pai, filho2) == False:
 #	print "Nao"

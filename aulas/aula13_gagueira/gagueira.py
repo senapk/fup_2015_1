@@ -19,7 +19,7 @@ def separa_silabas(palavra):
             lista[-1] += B
             return lista
 
-nome = raw_input("diga seu nome\n")
+nome = raw_input()
 saida = ""
 palavras = nome.split(" ")
 for palavra in palavras:
