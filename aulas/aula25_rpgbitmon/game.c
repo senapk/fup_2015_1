@@ -28,16 +28,16 @@ void bit_mostrar(Bitmon bit);
 
 int main(){
 
-    Bitmon heroi = bit_criar('D', 34, 2000);
+    Bitmon heroi = bit_criar('D', 34, 200);
     int vitorias = 0;
 
     char resposta[20];
-    while(heroi.vida > 0){
+    while(True){
         bit_mostrar(heroi);
-        /*printf("Voce deseja lutar(sim/nao)?\n");*/
-        /*fgets(resposta, 19, stdin); */
-        /*if(strcmp(resposta, "nao\n"))*/
-        /*break;*/
+        printf("Voce deseja lutar(sim/nao)?\n");
+        fgets(resposta, sizeof(resposta), stdin); 
+        if(strcmp(resposta, "nao\n") == 0)
+            break;
         Bitmon enemy = bit_criar_random('E');
         while(bit_lutar(&heroi, &enemy) == True);
 
