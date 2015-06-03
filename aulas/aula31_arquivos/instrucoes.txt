@@ -1,0 +1,14 @@
+Ler uma linha com até 100 char que contem
+
+nome do produto; qtd; valor;
+
+e preencher:
+
+typedef struct{
+    char nome[100];
+    int qtd;
+    float valor;
+}Produto;
+
+Ex:
+coca-cola zero; 52; 2.56;

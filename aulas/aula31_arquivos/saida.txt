@@ -1,0 +1,4 @@
+se joga no escuro; 32; 3.21;
+Nome:se joga no escuro,  qtd:32, valor:3.21
+se joga no escuro; 32; 3.21;
+Nome:se joga no escuro,  qtd:32, valor:3.21
