@@ -19,10 +19,15 @@ Cenario *cenario_create(int max, float largura, float altura){
     return cenario;
 }
 
+void cenario_desenhar(Cenario * cenario, sfRenderWindow * janela, sfText * text){
+    int i;
+    for(i = 0; i < cenario->qtd; i++)
+        letra_desenhar(janela, text, cenario->vet[i]);
+}
 
-void cenario_add_letra(Cenario *c, float vx, float vy){
+void cenario_add_letra(Cenario *c, float vx, float vy, int tam){
     if(c->qtd < c->max){
-        c->vet[c->qtd] = letra_criar(c->largura, vx, vy);
+        c->vet[c->qtd] = letra_criar(c->largura, vx, vy, tam);
         c->qtd++;
     }
 }

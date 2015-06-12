@@ -5,10 +5,12 @@ CONFIG -= qt
 
 SOURCES += main.c \
     letra.c \
-    cenario.c
+    cenario.c \
+    visual.c
 
 LIBS += -lcsfml-graphics -lcsfml-audio -lcsfml-window -lcsfml-system
 
 HEADERS += \
     letra.h \
-    cenario.h
+    cenario.h \
+    visual.h
