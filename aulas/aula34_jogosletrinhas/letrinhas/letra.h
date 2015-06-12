@@ -6,6 +6,8 @@ typedef struct{
     char c;
     float x, y;
     float vx, vy;
+    float angulo;
+    float vangular;//velocidade angular
     int tam;
 }Letra;
 

@@ -27,6 +27,7 @@ Visual *visual_criar(int largura, int altura){
 void visual_desenhar_placar(Visual *vi, int acertos){
     char texto[10];
     sprintf(texto, "%d", acertos);
+    sfText_setRotation(vi->texto, 0);
     sfText_setString(vi->texto, texto);
     sfText_setColor(vi->texto, sfGreen);
     sfText_setPosition(vi->texto, (sfVector2f){0, 0});
