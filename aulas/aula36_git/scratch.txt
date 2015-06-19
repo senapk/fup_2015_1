@@ -1,0 +1,42 @@
+1 - CRIE a pasta
+2 - ENTRE na pasta
+3 - Instale o git
+    sudo apt-get install git
+4 - Inicie o repositorio LOCAL
+    git init
+5 - Adiciona o repositorio remoto
+    git remote add nome url
+5.1 Configure seu usuario
+    git config --global user.email "johndoe@example.com"
+6 - Crie ou altera alguns arquivos na pasta
+7 - Adiciona os arquivos
+    git add nome //adicionar um por um
+    git add .
+    git add -u .
+8 - Commit para repositorio local
+    git commit -m "mensagem"
+9 - Envia para o repositorio remoto
+    git push origin master
+
+10 - Cria um branch
+    git branch nome_do_branch
+11 - Pula entre branchs(lembre de dar o commit antes)
+    git checkout nome_do_branch
+12 - Envia pra nuvem
+    git push origin nome_do_branch
+13 - Merge entre os repositorios
+    Vai pro repositorio de destino
+    git merge branch_origem
+14 - Apagar um branch local
+    move pra outro branch
+    git branch -d nome_do_branch
+15 - Apaga um repositorio remoto
+    git push origin :nome_do_branch
+
+Referencias
+
+http://rogerdudler.github.io/git-guide/index.pt_BR.html
+
+http://codexico.com.br/blog/linux/tutorial-simples-como-usar-o-git-e-o-github/
+
+https://git-scm.com/book/pt-br/v1/Primeiros-passos
